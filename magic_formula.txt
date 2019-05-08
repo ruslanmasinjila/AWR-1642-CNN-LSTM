@@ -1,0 +1,3 @@
+2*num_doppler_bins*num_range_bins*num_frames = 2^16
+
+Then, on frameCfg, the 5th value from left has to be set to 1000/num_frames

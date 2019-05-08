@@ -1,0 +1,17 @@
+m1=json.load(open('frame1.txt'))
+z1=np.array(m1)
+
+***********************************
+
+# Heatmaps
+import json
+import numpy as np
+import seaborn as sns
+import matplotlib.pylab as plt
+
+uniform_data = np.random.rand(10, 12)
+ax = sns.heatmap(uniform_data, linewidth=0.5)
+plt.show()
+
+#np.array(m1)
+#m4=m3.flatten()
